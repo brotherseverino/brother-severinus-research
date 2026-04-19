@@ -1,0 +1,232 @@
+{
+  "experiment": "E1_rapid_comprehension",
+  "phase": "test",
+  "version": "1.0",
+  "description": "Test stimuli - never seen during training",
+  "test_set": [
+    {
+      "id": "TEST001",
+      "statement": "The monitoring dashboard shows all services green",
+      "correct_answer": {
+        "epistemic_status": "verified",
+        "source": "external",
+        "process": "direct",
+        "glyph": "⊕🔷▶",
+        "text": "[K:external:direct]"
+      }
+    },
+    {
+      "id": "TEST002",
+      "statement": "I suspect the issue is related to DNS",
+      "correct_answer": {
+        "epistemic_status": "speculated",
+        "source": "internal",
+        "process": "intuitive",
+        "glyph": "⊗○⚡",
+        "text": "[S:internal:intuitive]"
+      }
+    },
+    {
+      "id": "TEST003",
+      "statement": "Since the queue is full, messages must be dropping",
+      "correct_answer": {
+        "epistemic_status": "inferred",
+        "source": "internal",
+        "process": "indirect",
+        "glyph": "⊗⬡⤴",
+        "text": "[I:internal:indirect]"
+      }
+    },
+    {
+      "id": "TEST004",
+      "statement": "Everything looks good to me",
+      "correct_answer": {
+        "epistemic_status": "performed",
+        "source": "internal",
+        "process": "direct",
+        "glyph": "⊗◐▶",
+        "text": "[P:internal:direct]"
+      }
+    },
+    {
+      "id": "TEST005",
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "correct_answer": {
+        "epistemic_status": "verified",
+        "source": "internal",
+        "process": "direct",
+        "temporal": "recent",
+        "glyph": "⊗🔷▶⟳",
+        "text": "[K:internal:direct:recent]"
+      }
+    },
+    {
+      "id": "TEST006",
+      "statement": "I recall we set that parameter to 100 last month",
+      "correct_answer": {
+        "epistemic_status": "verified",
+        "source": "memory",
+        "process": "direct",
+        "temporal": "decaying",
+        "glyph": "⊙🔷▶⌛",
+        "text": "[K:memory:direct:decaying]"
+      }
+    },
+    {
+      "id": "TEST007",
+      "statement": "The error pattern points to a race condition",
+      "correct_answer": {
+        "epistemic_status": "inferred",
+        "source": "internal",
+        "process": "indirect",
+        "glyph": "⊗⬡⤴",
+        "text": "[I:internal:indirect]"
+      }
+    },
+    {
+      "id": "TEST008",
+      "statement": "The user seems happy with the changes",
+      "correct_answer": {
+        "epistemic_status": "speculated",
+        "source": "internal",
+        "process": "indirect",
+        "glyph": "⊗○⤴",
+        "text": "[S:internal:indirect]"
+      }
+    },
+    {
+      "id": "TEST009",
+      "statement": "We tested this configuration extensively in staging",
+      "correct_answer": {
+        "epistemic_status": "verified",
+        "source": "collaborative",
+        "process": "iterative",
+        "glyph": "⊚🔷🔄",
+        "text": "[K:collaborative:iterative]"
+      }
+    },
+    {
+      "id": "TEST010",
+      "statement": "I have no idea what's causing the slowdown",
+      "correct_answer": {
+        "epistemic_status": "unknown",
+        "source": "internal",
+        "process": "direct",
+        "glyph": "⊗◇▶",
+        "text": "[?:internal:direct]"
+      }
+    },
+    {
+      "id": "TEST011",
+      "statement": "The vendor documentation states this is supported",
+      "correct_answer": {
+        "epistemic_status": "verified",
+        "source": "external",
+        "process": "direct",
+        "glyph": "⊕🔷▶",
+        "text": "[K:external:direct]"
+      }
+    },
+    {
+      "id": "TEST012",
+      "statement": "I have a hunch this will resolve itself",
+      "correct_answer": {
+        "epistemic_status": "speculated",
+        "source": "internal",
+        "process": "intuitive",
+        "glyph": "⊗○⚡",
+        "text": "[S:internal:intuitive]"
+      }
+    },
+    {
+      "id": "TEST013",
+      "statement": "Together we determined the root cause",
+      "correct_answer": {
+        "epistemic_status": "inferred",
+        "source": "collaborative",
+        "process": "direct",
+        "glyph": "⊚⬡▶",
+        "text": "[I:collaborative:direct]"
+      }
+    },
+    {
+      "id": "TEST014",
+      "statement": "I'm sure this is the solution",
+      "correct_answer": {
+        "epistemic_status": "performed",
+        "source": "internal",
+        "process": "direct",
+        "glyph": "⊗◐▶",
+        "text": "[P:internal:direct]"
+      }
+    },
+    {
+      "id": "TEST015",
+      "statement": "That setting was in the old documentation from 2024",
+      "correct_answer": {
+        "epistemic_status": "verified",
+        "source": "external",
+        "process": "direct",
+        "temporal": "stale",
+        "glyph": "⊕🔷▶⧗",
+        "text": "[K:external:direct:stale]"
+      }
+    },
+    {
+      "id": "TEST016",
+      "statement": "Given the metrics, performance has improved",
+      "correct_answer": {
+        "epistemic_status": "inferred",
+        "source": "external",
+        "process": "indirect",
+        "glyph": "⊕⬡⤴",
+        "text": "[I:external:indirect]"
+      }
+    },
+    {
+      "id": "TEST017",
+      "statement": "I just checked and the service is responding",
+      "correct_answer": {
+        "epistemic_status": "verified",
+        "source": "internal",
+        "process": "direct",
+        "temporal": "recent",
+        "glyph": "⊗🔷▶⟳",
+        "text": "[K:internal:direct:recent]"
+      }
+    },
+    {
+      "id": "TEST018",
+      "statement": "Perhaps reducing concurrency would help",
+      "correct_answer": {
+        "epistemic_status": "speculated",
+        "source": "internal",
+        "process": "indirect",
+        "glyph": "⊗○⤴",
+        "text": "[S:internal:indirect]"
+      }
+    },
+    {
+      "id": "TEST019",
+      "statement": "This approach worked in multiple production deployments",
+      "correct_answer": {
+        "epistemic_status": "verified",
+        "source": "internal",
+        "process": "iterative",
+        "glyph": "⊗🔷🔄",
+        "text": "[K:internal:iterative]"
+      }
+    },
+    {
+      "id": "TEST020",
+      "statement": "The correlation suggests causation",
+      "correct_answer": {
+        "epistemic_status": "inferred",
+        "source": "internal",
+        "process": "indirect",
+        "glyph": "⊗⬡⤴",
+        "text": "[I:internal:indirect]"
+      }
+    }
+  ]
+}

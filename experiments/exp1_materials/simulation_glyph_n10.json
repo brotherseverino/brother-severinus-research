@@ -1,0 +1,1615 @@
+{
+  "experiment": "E1_rapid_comprehension_simulation",
+  "condition": "glyph",
+  "num_agents": 10,
+  "overall_accuracy": 73.0,
+  "trials_to_80_percent": 150,
+  "learning_curve": [
+    66.0,
+    66.0,
+    80.0,
+    80.0
+  ],
+  "detailed_results": [
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "\u2297\ud83d\udd37\u25b6",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "\u2299\ud83d\udd37\u25b6\u231b",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "\u229a\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "\u2297\u25c7\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "\u229a\u2b21\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "\u2295\ud83d\udd37\u25b6\u29d7",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "\u2295\u2b21\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "\u2297\u25d0\ud83d\udd04",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_01",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "\u2297\u2b21\u26a1",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "\u2297\u25cb\u25b6",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "\u2299\u25cb\u25b6\u231b",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "\u229a\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "\u2297\u25cb\u25b6",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "\u229a\u2b21\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "\u2297\u25cb\u25b6",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "\u2295\ud83d\udd37\u25b6\u29d7",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "\u2295\ud83d\udd37\u2934",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "\u2297\u2b21\ud83d\udd04",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_02",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "\u2295\u2b21\u25b6",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "\u2297\u25cb\u25b6\u27f3",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "\u2299\u25d0\u25b6\u231b",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "\u229a\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "\u2297\u25c7\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "\u2295\u25d0\u25b6",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "\u229a\u2b21\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "\u2295\u2b21\u25b6\u29d7",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "\u2295\u2b21\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "\u2297\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_03",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "\u2299\u2b21\u25b6\u231b",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "\u229a\u25cb\ud83d\udd04",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "\u2297\u25c7\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "\u2295\u25d0\u25b6",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "\u229a\u25cb\u25b6",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "\u2295\u2b21\u25b6\u29d7",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "\u2295\u25cb\u2934",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "\u2297\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_04",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "\u2295\u25cb\u25b6",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "\u2297\ud83d\udd37\u25b6",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "\u2299\u2b21\u25b6\u231b",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "\u229a\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "\u2297\u2b21\u25b6",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "\u229a\u2b21\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "\u2297\u25cb\u25b6",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "\u2295\ud83d\udd37\u25b6\u29d7",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "\u2295\u2b21\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "\u2297\u2b21\u25b6\u27f3",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "\u2297\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_05",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "\u2299\ud83d\udd37\u25b6\u231b",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "\u2297\ud83d\udd37\u2934",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "\u229a\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "\u2297\u25c7\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "\u2297\u2b21\u26a1",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "\u229a\u2b21\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "\u2295\ud83d\udd37\u25b6\u29d7",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "\u2295\ud83d\udd37\u2934",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "\u2297\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_06",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "\u2297\ud83d\udd37\u2934",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "\u2297\u25d0\u26a1",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "\u2299\ud83d\udd37\u25b6\u231b",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "\u229a\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "\u2297\u25c7\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "\u229a\u2b21\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "\u2295\ud83d\udd37\u25b6\u29d7",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "\u2295\u2b21\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "\u2297\u25d0\ud83d\udd04",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_07",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "\u2295\u25cb\u25b6",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "\u2297\u25d0\u26a1",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "\u2297\u25cb\u25b6\u27f3",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "\u2299\ud83d\udd37\u25b6\u231b",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "\u229a\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "\u2297\u2b21\u25b6",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "\u229a\u2b21\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "\u2295\ud83d\udd37\u25b6\u29d7",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "\u2295\u2b21\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "\u2297\u25d0\ud83d\udd04",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_08",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "\u2295\u25d0\u25b6",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "\u2297\u2b21\u25b6\u27f3",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "\u2299\u25cb\u25b6\u231b",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "\u229a\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "\u2297\u25c7\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "\u229a\u2b21\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "\u2295\u25d0\u25b6\u29d7",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "\u2295\u2b21\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "\u2297\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_09",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "\u2297\u25cb\u26a1",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "\u2297\ud83d\udd37\u2934",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "\u2299\ud83d\udd37\u25b6\u231b",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "\u2297\u2b21\u2934",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "\u229a\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "\u2297\u25c7\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "\u2295\ud83d\udd37\u25b6",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "\u2297\u2b21\u26a1",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "\u229a\u2b21\u25b6",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "\u2297\u25d0\u25b6",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "\u2295\u25d0\u25b6\u29d7",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "\u2295\u2b21\u2934",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "\u2297\u25cb\u2934",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "\u2297\ud83d\udd37\ud83d\udd04",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_glyph_10",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "\u2297\ud83d\udd37\u2934",
+      "correct": false,
+      "confidence": 4
+    }
+  ]
+}

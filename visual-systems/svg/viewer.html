@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epistemic Glyphs - Interactive Reference</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .svg-container {
+            width: 100%;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 2rem;
+            background: #f9fafb;
+            margin-bottom: 2rem;
+        }
+        
+        svg {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: #667eea;
+            color: white;
+        }
+        
+        button:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        button.secondary {
+            background: #e5e7eb;
+            color: #374151;
+        }
+        
+        button.secondary:hover {
+            background: #d1d5db;
+        }
+        
+        .info-box {
+            background: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .info-box h3 {
+            color: #1e40af;
+            margin-bottom: 0.5rem;
+        }
+        
+        .info-box p {
+            color: #1e3a8a;
+            line-height: 1.6;
+        }
+        
+        .download-section {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        .usage-examples {
+            background: #fefce8;
+            border-left: 4px solid #eab308;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+        
+        .usage-examples h3 {
+            color: #854d0e;
+            margin-bottom: 1rem;
+        }
+        
+        .example {
+            background: white;
+            padding: 1rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .example-label {
+            color: #78716c;
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .example-content {
+            color: #1c1917;
+            font-size: 1.1rem;
+        }
+        
+        .footer {
+            text-align: center;
+            color: #9ca3af;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e5e7eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Epistemic Glyphs</h1>
+        <p class="subtitle">A Visual Language for Agent Epistemic Communication v1.0</p>
+        
+        <div class="info-box">
+            <h3>About This System</h3>
+            <p>
+                Epistemic Glyphs are a visual symbol system designed for computational agents to communicate 
+                knowledge states, confidence levels, sources, and reasoning processes. Unlike text-based notation,
+                glyphs are processed pre-attentively (at a glance), cross linguistic barriers, and compose 
+                systematically to create complex meanings.
+            </p>
+        </div>
+        
+        <div class="controls">
+            <button onclick="zoomIn()">Zoom In</button>
+            <button onclick="zoomOut()">Zoom Out</button>
+            <button onclick="resetZoom()">Reset Zoom</button>
+            <button class="secondary" onclick="toggleGrid()">Toggle Grid</button>
+        </div>
+        
+        <div class="svg-container" id="svgContainer">
+            <object data="epistemic_glyphs_reference.svg" type="image/svg+xml" id="svgObject" style="width: 100%; height: auto;">
+                Your browser does not support SVG
+            </object>
+        </div>
+        
+        <div class="download-section">
+            <a href="epistemic_glyphs_reference.svg" download class="download-btn">
+                📥 Download SVG Reference Sheet
+            </a>
+            <a href="../epistemic_glyphs_v1.md" download class="download-btn">
+                📄 Download Full Documentation
+            </a>
+        </div>
+        
+        <div class="usage-examples">
+            <h3>Quick Usage Examples</h3>
+            
+            <div class="example">
+                <div class="example-label">External verification, recent:</div>
+                <div class="example-content">⊕🔷⟳ "API confirmed 2h ago that system is online"</div>
+            </div>
+            
+            <div class="example">
+                <div class="example-label">Internal speculation with low confidence:</div>
+                <div class="example-content">⊗○░ "I guess (not sure) user might prefer async mode"</div>
+            </div>
+            
+            <div class="example">
+                <div class="example-label">Memory-based inference, medium confidence:</div>
+                <div class="example-content">⊙⬡▓ "I remember reasoning this through (moderately confident)"</div>
+            </div>
+            
+            <div class="example">
+                <div class="example-label">Causal relationship:</div>
+                <div class="example-content">Timeout increased → Errors decreased</div>
+            </div>
+            
+            <div class="example">
+                <div class="example-label">Contradictory sources:</div>
+                <div class="example-content">⊕🔷₁ ⊥ ⊕🔷₂ "Two external sources verified, but they contradict"</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Brother_Severinus_III</strong> • Visual Semiotics Research • 2026</p>
+            <p style="margin-top: 0.5rem; font-size: 0.875rem;">
+                This is an open standard. Contributions welcome.
+            </p>
+        </div>
+    </div>
+    
+    <script>
+        let currentZoom = 1;
+        
+        function zoomIn() {
+            currentZoom *= 1.2;
+            updateZoom();
+        }
+        
+        function zoomOut() {
+            currentZoom *= 0.8;
+            updateZoom();
+        }
+        
+        function resetZoom() {
+            currentZoom = 1;
+            updateZoom();
+        }
+        
+        function updateZoom() {
+            const svgObject = document.getElementById('svgObject');
+            svgObject.style.transform = `scale(${currentZoom})`;
+            svgObject.style.transformOrigin = 'top center';
+        }
+        
+        function toggleGrid() {
+            const container = document.getElementById('svgContainer');
+            if (container.style.backgroundImage) {
+                container.style.backgroundImage = '';
+            } else {
+                container.style.backgroundImage = 
+                    'linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px), ' +
+                    'linear-gradient(90deg, rgba(0,0,0,.05) 1px, transparent 1px)';
+                container.style.backgroundSize = '20px 20px';
+            }
+        }
+    </script>
+</body>
+</html>

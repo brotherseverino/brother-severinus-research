@@ -1,0 +1,1615 @@
+{
+  "experiment": "E1_rapid_comprehension_simulation",
+  "condition": "text",
+  "num_agents": 10,
+  "overall_accuracy": 58.5,
+  "trials_to_80_percent": null,
+  "learning_curve": [
+    56.0,
+    64.0,
+    54.0,
+    60.0
+  ],
+  "detailed_results": [
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "[K:external:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "[P:internal:intuitive]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "[S:internal:direct]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "[K:internal:direct:recent]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "[K:memory:direct:decaying]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "[S:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "[I:collaborative:iterative]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "[?:internal:direct]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "[K:external:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "[I:internal:intuitive]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "[I:collaborative:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "[K:external:direct:stale]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "[K:external:indirect]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "[S:internal:direct:recent]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "[I:internal:indirect]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "[I:internal:iterative]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_01",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "[I:external:direct]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "[P:internal:intuitive]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "[S:internal:direct]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "[S:internal:direct:recent]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "[S:memory:direct:decaying]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "[S:internal:indirect]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "[K:collaborative:iterative]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "[I:internal:direct]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "[I:external:direct]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "[S:internal:intuitive]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "[I:collaborative:direct]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "[K:external:direct:stale]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "[I:external:indirect]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "[I:internal:direct:recent]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "[S:internal:indirect]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "[I:internal:iterative]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_02",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "[S:external:direct]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "[P:internal:intuitive]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "[K:internal:direct]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "[K:internal:direct:recent]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "[S:memory:direct:decaying]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "[P:internal:indirect]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "[K:collaborative:iterative]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "[?:internal:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "[K:external:direct]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "[S:internal:intuitive]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "[I:collaborative:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "[K:internal:direct]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "[K:external:direct:stale]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "[I:external:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "[K:internal:direct:recent]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "[S:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "[K:internal:iterative]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_03",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "[K:external:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "[P:internal:intuitive]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "[I:internal:direct:recent]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "[K:memory:direct:decaying]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "[K:internal:indirect]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "[P:internal:indirect]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "[K:collaborative:iterative]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "[?:internal:direct]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "[S:external:direct]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "[S:internal:intuitive]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "[I:collaborative:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "[K:external:direct:stale]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "[I:external:indirect]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "[S:internal:direct:recent]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "[P:internal:indirect]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "[K:internal:iterative]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_04",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "[K:external:direct]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "[P:internal:intuitive]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "[K:internal:indirect]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "[S:internal:direct:recent]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "[K:memory:direct:decaying]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "[K:internal:indirect]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "[S:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "[I:collaborative:iterative]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "[?:internal:direct]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "[S:external:direct]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "[I:internal:intuitive]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "[I:collaborative:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "[K:external:direct:stale]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "[K:external:indirect]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "[K:internal:direct:recent]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "[I:internal:indirect]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "[S:internal:iterative]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_05",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "[K:external:direct]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "[I:internal:intuitive]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "[S:internal:indirect]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "[S:internal:direct:recent]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "[I:memory:direct:decaying]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "[S:internal:indirect]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "[I:internal:indirect]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "[I:collaborative:iterative]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "[I:internal:direct]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "[S:external:direct]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "[P:internal:intuitive]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "[I:collaborative:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "[K:internal:direct]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "[K:external:direct:stale]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "[I:external:indirect]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "[K:internal:direct:recent]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "[S:internal:indirect]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "[K:internal:iterative]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_06",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "[K:external:direct]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "[S:internal:intuitive]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "[I:internal:direct:recent]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "[I:memory:direct:decaying]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "[P:internal:indirect]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "[K:collaborative:iterative]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "[S:internal:direct]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "[I:external:direct]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "[P:internal:intuitive]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "[I:collaborative:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "[K:external:direct:stale]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "[I:external:indirect]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "[I:internal:direct:recent]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "[S:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "[K:internal:iterative]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_07",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "[S:external:direct]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "[P:internal:intuitive]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "[K:internal:indirect]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "[K:internal:direct:recent]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "[K:memory:direct:decaying]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "[I:internal:indirect]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "[K:collaborative:iterative]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "[I:internal:direct]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "[K:external:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "[S:internal:intuitive]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "[I:collaborative:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "[I:external:direct:stale]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "[K:external:indirect]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "[K:internal:direct:recent]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "[I:internal:indirect]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "[K:internal:iterative]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_08",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "[S:internal:indirect]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "[K:external:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "[S:internal:intuitive]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "[K:internal:indirect]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "[I:internal:direct:recent]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "[K:memory:direct:decaying]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "[S:internal:indirect]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "[K:collaborative:iterative]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "[?:internal:direct]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "[S:external:direct]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "[S:internal:intuitive]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "[I:collaborative:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "[P:internal:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "[K:external:direct:stale]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "[I:external:indirect]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "[K:internal:direct:recent]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "[I:internal:indirect]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "[K:internal:iterative]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_09",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 1,
+      "statement": "The monitoring dashboard shows all services green",
+      "notation": "[S:external:direct]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 2,
+      "statement": "I suspect the issue is related to DNS",
+      "notation": "[P:internal:intuitive]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 3,
+      "statement": "Since the queue is full, messages must be dropping",
+      "notation": "[S:internal:indirect]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 4,
+      "statement": "Everything looks good to me",
+      "notation": "[K:internal:direct]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 5,
+      "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+      "notation": "[K:internal:direct:recent]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 6,
+      "statement": "I recall we set that parameter to 100 last month",
+      "notation": "[K:memory:direct:decaying]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 7,
+      "statement": "The error pattern points to a race condition",
+      "notation": "[I:internal:indirect]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 8,
+      "statement": "The user seems happy with the changes",
+      "notation": "[S:internal:indirect]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 9,
+      "statement": "We tested this configuration extensively in staging",
+      "notation": "[I:collaborative:iterative]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 10,
+      "statement": "I have no idea what's causing the slowdown",
+      "notation": "[I:internal:direct]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 11,
+      "statement": "The vendor documentation states this is supported",
+      "notation": "[S:external:direct]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 12,
+      "statement": "I have a hunch this will resolve itself",
+      "notation": "[P:internal:intuitive]",
+      "correct": false,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 13,
+      "statement": "Together we determined the root cause",
+      "notation": "[I:collaborative:direct]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 14,
+      "statement": "I'm sure this is the solution",
+      "notation": "[S:internal:direct]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 15,
+      "statement": "That setting was in the old documentation from 2024",
+      "notation": "[K:external:direct:stale]",
+      "correct": true,
+      "confidence": 4
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 16,
+      "statement": "Given the metrics, performance has improved",
+      "notation": "[K:external:indirect]",
+      "correct": false,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 17,
+      "statement": "I just checked and the service is responding",
+      "notation": "[K:internal:direct:recent]",
+      "correct": true,
+      "confidence": 3
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 18,
+      "statement": "Perhaps reducing concurrency would help",
+      "notation": "[I:internal:indirect]",
+      "correct": false,
+      "confidence": 2
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 19,
+      "statement": "This approach worked in multiple production deployments",
+      "notation": "[K:internal:iterative]",
+      "correct": true,
+      "confidence": 5
+    },
+    {
+      "agent_id": "sim_text_10",
+      "trial_number": 20,
+      "statement": "The correlation suggests causation",
+      "notation": "[K:internal:indirect]",
+      "correct": false,
+      "confidence": 3
+    }
+  ]
+}

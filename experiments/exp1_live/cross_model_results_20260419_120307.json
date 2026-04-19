@@ -1,0 +1,254 @@
+{
+  "experiment": "E1_cross_model_glyph_comprehension",
+  "timestamp": "2026-04-19T12:03:07.872257",
+  "models_tested": [
+    "gpt-4",
+    "claude-3",
+    "gemini-pro",
+    "llama-3",
+    "mistral"
+  ],
+  "test_items": 5,
+  "results": {
+    "gpt-4": {
+      "accuracy": 0.8,
+      "correct_count": 4,
+      "total": 5,
+      "results": [
+        {
+          "item": 1,
+          "statement": "The monitoring dashboard shows all services green",
+          "correct_notation": "\u2295\ud83d\udd37\u25b6",
+          "model_notation": "\u2295\ud83d\udd37\u25b6",
+          "correct": true,
+          "confidence": 5
+        },
+        {
+          "item": 2,
+          "statement": "I suspect the issue is related to DNS",
+          "correct_notation": "\u2297\u25cb\u26a1",
+          "model_notation": "\u2297\u25cb\u26a1",
+          "correct": true,
+          "confidence": 3
+        },
+        {
+          "item": 3,
+          "statement": "Since the queue is full, messages must be dropping",
+          "correct_notation": "\u2297\u2b21\u2934",
+          "model_notation": "\u2295\ud83d\udd37\u25b6",
+          "correct": false,
+          "confidence": 4
+        },
+        {
+          "item": 4,
+          "statement": "Everything looks good to me",
+          "correct_notation": "\u2297\u25d0\u25b6",
+          "model_notation": "\u2297\u25d0\u25b6",
+          "correct": true,
+          "confidence": 3
+        },
+        {
+          "item": 5,
+          "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+          "correct_notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+          "model_notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+          "correct": true,
+          "confidence": 5
+        }
+      ]
+    },
+    "claude-3": {
+      "accuracy": 0.6,
+      "correct_count": 3,
+      "total": 5,
+      "results": [
+        {
+          "item": 1,
+          "statement": "The monitoring dashboard shows all services green",
+          "correct_notation": "\u2295\ud83d\udd37\u25b6",
+          "model_notation": "\u2295\ud83d\udd37\u25b6",
+          "correct": true,
+          "confidence": 3
+        },
+        {
+          "item": 2,
+          "statement": "I suspect the issue is related to DNS",
+          "correct_notation": "\u2297\u25cb\u26a1",
+          "model_notation": "\u2297\u25cb\u26a1",
+          "correct": true,
+          "confidence": 5
+        },
+        {
+          "item": 3,
+          "statement": "Since the queue is full, messages must be dropping",
+          "correct_notation": "\u2297\u2b21\u2934",
+          "model_notation": "\u2297\u25d0\u25b6",
+          "correct": false,
+          "confidence": 2
+        },
+        {
+          "item": 4,
+          "statement": "Everything looks good to me",
+          "correct_notation": "\u2297\u25d0\u25b6",
+          "model_notation": "\u2297\u25d0\u25b6",
+          "correct": true,
+          "confidence": 4
+        },
+        {
+          "item": 5,
+          "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+          "correct_notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+          "model_notation": "\u2297\u2b21\u2934",
+          "correct": false,
+          "confidence": 4
+        }
+      ]
+    },
+    "gemini-pro": {
+      "accuracy": 0.8,
+      "correct_count": 4,
+      "total": 5,
+      "results": [
+        {
+          "item": 1,
+          "statement": "The monitoring dashboard shows all services green",
+          "correct_notation": "\u2295\ud83d\udd37\u25b6",
+          "model_notation": "\u2297\u25d0\u25b6",
+          "correct": false,
+          "confidence": 4
+        },
+        {
+          "item": 2,
+          "statement": "I suspect the issue is related to DNS",
+          "correct_notation": "\u2297\u25cb\u26a1",
+          "model_notation": "\u2297\u25cb\u26a1",
+          "correct": true,
+          "confidence": 5
+        },
+        {
+          "item": 3,
+          "statement": "Since the queue is full, messages must be dropping",
+          "correct_notation": "\u2297\u2b21\u2934",
+          "model_notation": "\u2297\u2b21\u2934",
+          "correct": true,
+          "confidence": 3
+        },
+        {
+          "item": 4,
+          "statement": "Everything looks good to me",
+          "correct_notation": "\u2297\u25d0\u25b6",
+          "model_notation": "\u2297\u25d0\u25b6",
+          "correct": true,
+          "confidence": 5
+        },
+        {
+          "item": 5,
+          "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+          "correct_notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+          "model_notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+          "correct": true,
+          "confidence": 3
+        }
+      ]
+    },
+    "llama-3": {
+      "accuracy": 1.0,
+      "correct_count": 5,
+      "total": 5,
+      "results": [
+        {
+          "item": 1,
+          "statement": "The monitoring dashboard shows all services green",
+          "correct_notation": "\u2295\ud83d\udd37\u25b6",
+          "model_notation": "\u2295\ud83d\udd37\u25b6",
+          "correct": true,
+          "confidence": 3
+        },
+        {
+          "item": 2,
+          "statement": "I suspect the issue is related to DNS",
+          "correct_notation": "\u2297\u25cb\u26a1",
+          "model_notation": "\u2297\u25cb\u26a1",
+          "correct": true,
+          "confidence": 5
+        },
+        {
+          "item": 3,
+          "statement": "Since the queue is full, messages must be dropping",
+          "correct_notation": "\u2297\u2b21\u2934",
+          "model_notation": "\u2297\u2b21\u2934",
+          "correct": true,
+          "confidence": 4
+        },
+        {
+          "item": 4,
+          "statement": "Everything looks good to me",
+          "correct_notation": "\u2297\u25d0\u25b6",
+          "model_notation": "\u2297\u25d0\u25b6",
+          "correct": true,
+          "confidence": 3
+        },
+        {
+          "item": 5,
+          "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+          "correct_notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+          "model_notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+          "correct": true,
+          "confidence": 3
+        }
+      ]
+    },
+    "mistral": {
+      "accuracy": 1.0,
+      "correct_count": 5,
+      "total": 5,
+      "results": [
+        {
+          "item": 1,
+          "statement": "The monitoring dashboard shows all services green",
+          "correct_notation": "\u2295\ud83d\udd37\u25b6",
+          "model_notation": "\u2295\ud83d\udd37\u25b6",
+          "correct": true,
+          "confidence": 4
+        },
+        {
+          "item": 2,
+          "statement": "I suspect the issue is related to DNS",
+          "correct_notation": "\u2297\u25cb\u26a1",
+          "model_notation": "\u2297\u25cb\u26a1",
+          "correct": true,
+          "confidence": 4
+        },
+        {
+          "item": 3,
+          "statement": "Since the queue is full, messages must be dropping",
+          "correct_notation": "\u2297\u2b21\u2934",
+          "model_notation": "\u2297\u2b21\u2934",
+          "correct": true,
+          "confidence": 3
+        },
+        {
+          "item": 4,
+          "statement": "Everything looks good to me",
+          "correct_notation": "\u2297\u25d0\u25b6",
+          "model_notation": "\u2297\u25d0\u25b6",
+          "correct": true,
+          "confidence": 4
+        },
+        {
+          "item": 5,
+          "statement": "I ran the benchmark 5 minutes ago and got 200ms latency",
+          "correct_notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+          "model_notation": "\u2297\ud83d\udd37\u25b6\u27f3",
+          "correct": true,
+          "confidence": 4
+        }
+      ]
+    }
+  },
+  "summary": {
+    "mean_accuracy": 0.84,
+    "best_model": "llama-3",
+    "worst_model": "claude-3"
+  }
+}

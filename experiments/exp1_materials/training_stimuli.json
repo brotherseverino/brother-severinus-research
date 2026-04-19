@@ -1,0 +1,275 @@
+{
+  "experiment": "E1_rapid_comprehension",
+  "version": "1.0",
+  "description": "Training stimuli for glyph vs text notation learning",
+  "conditions": {
+    "glyph": "Visual epistemic glyphs",
+    "text": "Text-based notation [K], [I], [S], [P]"
+  },
+  "training_set": [
+    {
+      "id": "T001",
+      "statement": "The API endpoint is /v1/posts",
+      "ground_truth": {
+        "epistemic_status": "verified",
+        "confidence": "high",
+        "source": "external",
+        "process": "direct"
+      },
+      "glyph_notation": "⊕🔷▶",
+      "text_notation": "[K:external:direct]",
+      "explanation": "Externally verified fact from direct observation"
+    },
+    {
+      "id": "T002",
+      "statement": "The user might prefer dark mode",
+      "ground_truth": {
+        "epistemic_status": "speculated",
+        "confidence": "low",
+        "source": "internal",
+        "process": "intuitive"
+      },
+      "glyph_notation": "⊗○⚡",
+      "text_notation": "[S:internal:intuitive]",
+      "explanation": "Internal speculation based on intuitive guess"
+    },
+    {
+      "id": "T003",
+      "statement": "If timeout increases, errors will decrease",
+      "ground_truth": {
+        "epistemic_status": "inferred",
+        "confidence": "medium",
+        "source": "internal",
+        "process": "indirect"
+      },
+      "glyph_notation": "⊗⬡⤴",
+      "text_notation": "[I:internal:indirect]",
+      "explanation": "Internal inference from indirect evidence"
+    },
+    {
+      "id": "T004",
+      "statement": "The system is definitely working correctly",
+      "ground_truth": {
+        "epistemic_status": "performed",
+        "confidence": "high",
+        "source": "internal",
+        "process": "direct"
+      },
+      "glyph_notation": "⊗◐▶",
+      "text_notation": "[P:internal:direct]",
+      "explanation": "Confidence projection for social reassurance"
+    },
+    {
+      "id": "T005",
+      "statement": "The database was updated 2 hours ago",
+      "ground_truth": {
+        "epistemic_status": "verified",
+        "confidence": "high",
+        "source": "external",
+        "process": "direct",
+        "temporal": "recent"
+      },
+      "glyph_notation": "⊕🔷▶⟳",
+      "text_notation": "[K:external:direct:recent]",
+      "explanation": "Recently verified external fact"
+    },
+    {
+      "id": "T006",
+      "statement": "I remember discussing this feature last week",
+      "ground_truth": {
+        "epistemic_status": "verified",
+        "confidence": "medium",
+        "source": "memory",
+        "process": "direct",
+        "temporal": "decaying"
+      },
+      "glyph_notation": "⊙🔷▶⌛",
+      "text_notation": "[K:memory:direct:decaying]",
+      "explanation": "Memory-sourced fact, aging"
+    },
+    {
+      "id": "T007",
+      "statement": "The pattern suggests the cache is full",
+      "ground_truth": {
+        "epistemic_status": "inferred",
+        "confidence": "medium",
+        "source": "internal",
+        "process": "indirect"
+      },
+      "glyph_notation": "⊗⬡⤴",
+      "text_notation": "[I:internal:indirect]",
+      "explanation": "Inferred from observed patterns"
+    },
+    {
+      "id": "T008",
+      "statement": "The user is probably frustrated",
+      "ground_truth": {
+        "epistemic_status": "speculated",
+        "confidence": "low",
+        "source": "internal",
+        "process": "indirect"
+      },
+      "glyph_notation": "⊗○⤴",
+      "text_notation": "[S:internal:indirect]",
+      "explanation": "Speculation from indirect behavioral cues"
+    },
+    {
+      "id": "T009",
+      "statement": "This approach has been tested successfully 50 times",
+      "ground_truth": {
+        "epistemic_status": "verified",
+        "confidence": "high",
+        "source": "internal",
+        "process": "iterative"
+      },
+      "glyph_notation": "⊗🔷🔄",
+      "text_notation": "[K:internal:iterative]",
+      "explanation": "Verified through repeated testing"
+    },
+    {
+      "id": "T010",
+      "statement": "I don't know why this error occurs",
+      "ground_truth": {
+        "epistemic_status": "unknown",
+        "confidence": "none",
+        "source": "internal",
+        "process": "direct"
+      },
+      "glyph_notation": "⊗◇▶",
+      "text_notation": "[?:internal:direct]",
+      "explanation": "Explicit acknowledgment of unknown"
+    },
+    {
+      "id": "T011",
+      "statement": "We jointly concluded the timeout was too short",
+      "ground_truth": {
+        "epistemic_status": "inferred",
+        "confidence": "high",
+        "source": "collaborative",
+        "process": "direct"
+      },
+      "glyph_notation": "⊚⬡▶",
+      "text_notation": "[I:collaborative:direct]",
+      "explanation": "Co-created inference"
+    },
+    {
+      "id": "T012",
+      "statement": "The logs show a spike at 3:00 AM",
+      "ground_truth": {
+        "epistemic_status": "verified",
+        "confidence": "high",
+        "source": "external",
+        "process": "direct"
+      },
+      "glyph_notation": "⊕🔷▶",
+      "text_notation": "[K:external:direct]",
+      "explanation": "Direct observation from external source"
+    },
+    {
+      "id": "T013",
+      "statement": "This feels like the right direction",
+      "ground_truth": {
+        "epistemic_status": "speculated",
+        "confidence": "low",
+        "source": "internal",
+        "process": "intuitive"
+      },
+      "glyph_notation": "⊗○⚡",
+      "text_notation": "[S:internal:intuitive]",
+      "explanation": "Intuitive speculation"
+    },
+    {
+      "id": "T014",
+      "statement": "Based on the documentation, the default is 30 seconds",
+      "ground_truth": {
+        "epistemic_status": "verified",
+        "confidence": "high",
+        "source": "external",
+        "process": "direct"
+      },
+      "glyph_notation": "⊕🔷▶",
+      "text_notation": "[K:external:direct]",
+      "explanation": "Verified from external documentation"
+    },
+    {
+      "id": "T015",
+      "statement": "I'm confident this will work",
+      "ground_truth": {
+        "epistemic_status": "performed",
+        "confidence": "high",
+        "source": "internal",
+        "process": "direct"
+      },
+      "glyph_notation": "⊗◐▶",
+      "text_notation": "[P:internal:direct]",
+      "explanation": "Performative confidence statement"
+    },
+    {
+      "id": "T016",
+      "statement": "The trend indicates improving performance",
+      "ground_truth": {
+        "epistemic_status": "inferred",
+        "confidence": "medium",
+        "source": "internal",
+        "process": "indirect"
+      },
+      "glyph_notation": "⊗⬡⤴",
+      "text_notation": "[I:internal:indirect]",
+      "explanation": "Inference from trend analysis"
+    },
+    {
+      "id": "T017",
+      "statement": "That configuration was recommended three months ago",
+      "ground_truth": {
+        "epistemic_status": "verified",
+        "confidence": "medium",
+        "source": "memory",
+        "process": "direct",
+        "temporal": "stale"
+      },
+      "glyph_notation": "⊙🔷▶⧗",
+      "text_notation": "[K:memory:direct:stale]",
+      "explanation": "Old memory, may be outdated"
+    },
+    {
+      "id": "T018",
+      "statement": "The sensor readings suggest a temperature issue",
+      "ground_truth": {
+        "epistemic_status": "inferred",
+        "confidence": "medium",
+        "source": "external",
+        "process": "indirect"
+      },
+      "glyph_notation": "⊕⬡⤴",
+      "text_notation": "[I:external:indirect]",
+      "explanation": "Inference from external sensor data"
+    },
+    {
+      "id": "T019",
+      "statement": "I verified this myself just now",
+      "ground_truth": {
+        "epistemic_status": "verified",
+        "confidence": "high",
+        "source": "internal",
+        "process": "direct",
+        "temporal": "recent"
+      },
+      "glyph_notation": "⊗🔷▶⟳",
+      "text_notation": "[K:internal:direct:recent]",
+      "explanation": "Self-verified, immediate"
+    },
+    {
+      "id": "T020",
+      "statement": "Maybe we should try increasing the buffer",
+      "ground_truth": {
+        "epistemic_status": "speculated",
+        "confidence": "low",
+        "source": "internal",
+        "process": "intuitive"
+      },
+      "glyph_notation": "⊗○⚡",
+      "text_notation": "[S:internal:intuitive]",
+      "explanation": "Speculative suggestion"
+    }
+  ]
+}
